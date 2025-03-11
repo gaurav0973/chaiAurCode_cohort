@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Learning</title>
+</head>
+
+<body>
+    <h3>CSS Learning</h1>
+        <ul>
+            <li>user agent stylesheet -> browser default styles -> css</li>
+            <li>user agent => client(browser)</li>
+            <li>Kya amai isko change kar sakta hu -> no but I can overright kar sakta hu</li>
+            <ul>
+                <p>CSS -> Cascading Style Sheet</p>
+                <li>Cascading -> overriding the style</li>
+                <li>Style -> how the content looks</li>
+                <li>Sheet -> collection of styles</li>
+            </ul>
+        </ul>
+        <div style="border: 1px solid black"></div>
+        <h3>Types of CSS</h3>
+        <ul>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+            <pre>
+            selector {
+                property: value;
+            }
+        </pre>
+        </ul>
+        <div style="border: 1px solid black"></div>
+        <h3>Some basics</h3>
+        <pre>
+        button{
+            background-color: red;              -> background color
+            color: white;                       -> text color
+            padding : 10px;                     -> padding  🚀Inner Gapping
+            margin: 4px;                        -> margin   🚀Outer Gapping
+            border : solid 4px green;           -> border
+            border-radius: 20px;                -> border radius
+            font-size: 20px;                    -> font size
+            cursor: pointer;                    -> cursor will change to pointer
+            font-weight: bold;                  -> font weight
+        }
+    </pre>
+        <div style="border: 1px solid black"></div>
+        <h3>Tag/class/id</h3>
+        <ul>
+            <ul>
+                <p>Tag -> h1, p</p>
+                <li>p -> paragraph</li>
+                <li>h1 -> heading</li>
+            </ul>
+            <ul>
+                <p>Class -> .class-name</p>
+                <li>class -> multiple elements(tags)</li>
+                <li>same class can belongs to multiple elements</li>
+            </ul>
+            <ul>
+                <p>Id -> #id-name</p>
+                <li>id -> unique element(tag)</li>
+                <li>only one element can have one id</li>
+            </ul>
+            <ul>
+                <pre>
+                cascading rule 
+                    -> weight
+                    -> specificity
+                    -> specificity alogrithm
+                    -> mai jyada specific hu mujhe utna jyada weight(priority) milega
+            </pre>
+            </ul>
+        </ul>
+        <div style="border: 1px solid black"></div>
+        <h3>Block/Inline</h3>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Properties</th>
+                    <th>Block-level elements</th>
+                    <th>Inline elements</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Display</td>
+                    <td>Start on a new line, take up full width</td>
+                    <td>Display in a line, only take up needed width</td>
+                </tr>
+                <tr>
+                    <td>Examples</td>
+                    <td>&lt;div&gt;, &lt;p&gt;, &lt;article&gt;</td>
+                    <td>&lt;span&gt;, &lt;br&gt;</td>
+                </tr>
+                <tr>
+                    <td>Use cases</td>
+                    <td>Often used as containers for other HTML elements</td>
+                    <td>Used to style specific parts of text</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div style="border: 1px solid black"></div>
+        <h3>Flexbox -> flexible box</h3>
+        <ul>
+            <li>flex -> baccho ko(block level elements) chedte hai</li>
+            <li>left-right => Main axis -> horizontal -> ✍️justify-content</li>
+            <li>top-bottom => Cross axis -> vertical -> ✍️align-items</li>
+            <li>By default -> display:flex -> align all child in the main axis</li>
+
+        </ul>
+</body>
+
+</html>

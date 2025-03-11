@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kanban Board</h1>
+        <div class="boards-container">
+            <div id="todo-board" class="board">
+                <h4>Todo
+                    <span class="task-count">0</span>
+                </h4>
+                <!-- <p draggable="true" class="item">
+                    Learn React
+                    <button class="delete-btn">❌</button>
+                </p>
+                <p draggable="true" class="item">
+                    Learn Node
+                    <button class="delete-btn">❌</button>
+                </p> -->
+            </div>
+            <div id="in-progress-board" class="board">
+                <h4>In Progress
+                    <span class="task-count">0</span>
+                </h4>
+            </div>
+            <div id="done-board" class="board">
+                <h4>Done
+                    <span class="task-count">0</span>
+                </h4>
+            </div>
+        </div>
+        <button id="add-task-btn">Add Task</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

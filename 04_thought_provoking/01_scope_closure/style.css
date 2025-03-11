@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #151515;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(129, 125, 125);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+}
+
+.dropdownAndButton {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#dropdown {
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+    flex: 1;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#dropdown:focus {
+    border-color: #3498db;
+}
+
+#createColorBtn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#createColorBtn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+#createColorBtn:active {
+    transform: translateY(0);
+}
+
+.addedBtnDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+/* Style for dynamically created buttons */
+.colorBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    transition: all 0.3s ease;
+}
