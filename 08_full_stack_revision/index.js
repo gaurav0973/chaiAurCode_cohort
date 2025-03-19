@@ -30,5 +30,6 @@ app.use("/api/v1/users", userRoutes)
 
 
 app.listen(port, ()=>{
-    console.log("Backend server listning at PORT : ", port); 
+    console.log("Backend server (Boiler Plate) listning at PORT : ", port); 
 })
+
